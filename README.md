@@ -34,6 +34,9 @@ Round 1 to Round 9:
 2. Sub Bytes: The bytes in state matrix are replaced using the forward S-box 
 3. Shift Rows: The row elements are shifted among each other. The first row is left unchanged, the second row is shifted to the left by 1, the third row is shifted to the left by 2, the fourth row is shifted to the left by 3.
 4. Mix columns: The state matrix is multiplied by a constant matrix to form a new matrix
+
+<img width="177" alt="image" src="https://user-images.githubusercontent.com/105154462/209670204-824377be-9d24-452a-9e5e-bbcd1bad8420.png">
+
 5. Add round key: The state matrix is XORed with the key for that round.
 6. These 4 steps are done for each round
 
