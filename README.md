@@ -18,3 +18,5 @@ From the 16 byte key given by the user, we generate 10 more keys to use in the f
 5. This will be continued until the keys are generated
 
 ##### G function:
+
+<img width="407" alt="image" src="https://user-images.githubusercontent.com/105154462/209668441-c7f3f703-3a89-4cff-ab9f-25e660427a14.png">
