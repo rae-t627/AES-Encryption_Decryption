@@ -23,4 +23,21 @@ From the 16 byte key given by the user, we generate 10 more keys to use in the f
 3. The first byte is then XORed with the round constant.
 
 <img width="407" alt="image" src="https://user-images.githubusercontent.com/105154462/209668441-c7f3f703-3a89-4cff-ab9f-25e660427a14.png">
-## image from https://www.brainkart.com/article/AES-Key-Expansion_8410/
+(image from https://www.brainkart.com/article/AES-Key-Expansion_8410/)
+
+#### Encryption:
+We initially pad the message so that the length is a multiple of 16. 
+Round 0:
+1. The padded plaintext is then XORed with the first key. This (now called State Matrix) is now passed on to the next step.
+
+Round 1 to Round 9:
+2. Sub Bytes: The bytes in state matrix are replaced using the forward S-box 
+3. Shift Rows: The row elements are shifted among each other. The first row is left unchanged, the second row is shifted to the left by 1, the third row is shifted to the left by 2, the fourth row is shifted to the left by 3.
+4. Mix columns: The state matrix is multiplied by a constant matrix to form a new matrix
+5. Add round key: The state matrix is XORed with the key for that round.
+6. These 4 steps are done for each round
+
+Round 10:
+In the last round, we dont perform mix columns. We perform sub bytes, shift rows and add round key.
+This gives us the cipher text.
+
