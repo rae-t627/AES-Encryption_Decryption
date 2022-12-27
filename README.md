@@ -36,6 +36,7 @@ Round 1 to Round 9:
 4. Mix columns: The state matrix is multiplied by a constant matrix to form a new matrix
 
 <img width="177" alt="image" src="https://user-images.githubusercontent.com/105154462/209670204-824377be-9d24-452a-9e5e-bbcd1bad8420.png">
+(image from https://www.youtube.com/watch?v=Z_7aOkS8tOA&t=578s)
 
 5. Add round key: The state matrix is XORed with the key for that round.
 6. These 4 steps are done for each round
