@@ -75,9 +75,11 @@ NOTE: Make sure the key is of 16 characters. For decryption, make sure the encry
 ### References:
 1. https://www.geeksforgeeks.org/advanced-encryption-standard-aes/
 2. https://www.youtube.com/watch?v=Z_7aOkS8tOA
+ 
 Key Expansion:
 3. https://www.brainkart.com/article/AES-Key-Expansion_8410/
 4. https://www.youtube.com/watch?v=pF0Pj8rGzKI
+
 Testing:
 5. https://www.cryptool.org/en/cto/aes-step-by-step
 
