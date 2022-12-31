@@ -67,6 +67,8 @@ Note: The keys are also used in the reverse way. K10 is used in the initial roun
 Make sure all the files for encryption/decryption are in the same directory
 Run the main_encrypt/main_decrypt to encrypt or decrypt
 
+<img width="630" alt="image" src="https://user-images.githubusercontent.com/105154462/210129545-ab6f118e-1a2a-473c-b7c4-7d701084c674.png">
+
 NOTE: Make sure the key is of 16 characters. For decryption, make sure the encrypted text is in hex and the length is a multiple of 16
 
 
@@ -77,7 +79,7 @@ Key Expansion:
 3. https://www.brainkart.com/article/AES-Key-Expansion_8410/
 4. https://www.youtube.com/watch?v=pF0Pj8rGzKI
 Testing:
-https://www.cryptool.org/en/cto/aes-step-by-step
+5. https://www.cryptool.org/en/cto/aes-step-by-step
 
 
 
