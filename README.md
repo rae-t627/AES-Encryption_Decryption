@@ -31,6 +31,7 @@ Round 0:
 1. The padded plaintext is then XORed with the first key. This (now called State Matrix) is now passed on to the next step.
 
 Round 1 to Round 9:
+
 2. Sub Bytes: The bytes in state matrix are replaced using the forward S-box 
 
 3. Shift Rows: The row elements are shifted among each other. The first row is left unchanged, the second row is shifted to the left by 1, the third row is shifted to the left by 2, the fourth row is shifted to the left by 3.
